@@ -3,6 +3,16 @@ body {
   margin: 0px;
 }
 
+.header{
+  background-color: #004577;
+}
+
+
+.page-title{
+  font-size: 80px;
+  padding-top: 50px;
+}
+
 .paw-image-container {
   width: 100%;
   display: flex;
@@ -32,4 +42,62 @@ body {
 .images-center {
   display: flex;
   justify-content: center;
+}
+
+.conteudo-texto{
+  font-size: 25px;
+  text-align: center;
+}
+
+.footer{
+  background-color: #FFCD29;
+  margin-top: 100px;
+}
+
+.footer-texto{
+  text-align: center;
+  font-size: 50px;
+  padding: 50px;
+  margin: 0;
+  font-weight: bolder;
+}
+
+.botao-cabecalho{
+  background-color: rgb(66, 135, 196);
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+.botao-cabecalho:hover{
+  background-color: rgb(33, 94, 148);
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+.cabecalho-2{
+    display: none;
+}
+
+/*tablet*/
+
+@media only screen and (min-width: 800px){
+  .cabecalho-1{
+    display: none;
+  }
+
+  .cabecalho-2{
+    display: block;
+  }
 }
