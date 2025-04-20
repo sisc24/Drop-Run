@@ -162,4 +162,21 @@ body {
   width: 100%;
   background-color: #004577;
   color: aliceblue;
+  text-align: start;
+}
+
+.botao-2{
+  width: 100%;
+  text-align: start;
+}
+
+.up_button{
+  font-size: 35px;
+  transform: rotate(270deg);
+  color: #00000098;
+}
+
+.btn_up:active{
+  border-color: none;
+  outline: none;
 }

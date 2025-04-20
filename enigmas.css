@@ -158,10 +158,16 @@ body {
   padding: 15px;
 }
 
-.botao-1 {
+.botao-1{
   width: 100%;
   background-color: #004577;
   color: aliceblue;
+  text-align: start;
+}
+
+.botao-2{
+  width: 100%;
+  text-align: start;
 }
 
 /*css enigmas*/
@@ -183,4 +189,30 @@ body {
 
 .img-rotate {
   transform: rotate(15deg);
+}
+
+/*Tablet*/
+
+@media only screen and (min-width: 500px) {
+   .conteudo-pc {
+    display: block;
+  }
+
+  .conteudo-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .conteudo-pc {
+   display: none;
+ }
+
+ .conteudo-mobile {
+   display: block;
+ }
+}
+
+.imagem_mobile{
+  height: 60px;
 }

@@ -3,9 +3,513 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="/imagens/icon_var.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Drop&Run | Ajuda</title>
+    <link rel="stylesheet" href="Ajuda.css">
   </head>
   <body>
-    hii
+
+     <!--cabeçalho-mobile-->
+ <div class="header cabecalho-1">
+  <div class="container-fluid border-bottom">
+   <!--scrollspy-->
+  <div data-bs-spy="scroll" data-bs-target="#main-navigation" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example p-0 rounded-2" tabindex="0">
+   <section id="maincontent">
+       <div class="container">
+           <div class="row">
+             <div class="col"></div>
+               <div class="col-6 py-3 text-center">
+                   <img src="imagens/logo_small.png" alt="drop&run_logotipo" height="120px">
+               </div>
+               <div class="col pt-3 pe-0 text-end">
+                 <a class="btn border-0" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                   <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#FFFFFF"><path d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg>                </a>
+                 
+                 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                   <div class="offcanvas-header">
+                     <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                   </div>
+                   <div class="offcanvas-body">
+                     <div>
+                     </div>
+                     <!--Contéudo do off-canvas-->
+                     <div class="contentor-offcanvas text-start">
+                       <a href="index.html"><button class="botao-2 botao-offcanvas">Início</button></a> <br>
+                       <a href="enigmas.html"><button class="botao-2 botao-offcanvas">Enigmas</button></a> <br>
+                       <a href="Ajuda.html"><button class="botao-1 botao-offcanvas">Ajuda</button></a> <br>
+                       <a href="Contactos.html"><button class="botao-2 botao-offcanvas">Contactos</button></a>
+                     </div>
+                   </div>
+                 </div>
+                 
+               </div>
+           </div>
+       </div>
+     </div>
+  </div>
+ </div>
+ 
+ <!--cabecalho-tablet-->
+ <div class="header cabecalho-2">
+   <div class="container-fluid border-bottom">
+    <!--scrollspy-->
+   <div data-bs-spy="scroll" data-bs-target="#main-navigation" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example p-0 rounded-2" tabindex="0">
+    <section id="maincontent">
+        <div class="container">
+            <div class="row">
+                <div class="col y p-4 text-start">
+                    <img src="imagens/Drop&Run_Logotipo - Cópia.png" alt="drop&run_logotipo" height="120px">
+                </div>
+               <div class="col my-5">
+                 <a href="#" class="botao-cabecalho">
+                   <div class="volta">
+                     Início
+                   </div>
+               </a>
+               </div>
+               <div class="col my-5">
+                 <a href="enigmas.html" class="botao-cabecalho">
+                   <div class="volta">
+                   Enigmas
+                   </div>
+               </a>
+               </div>
+               <div class="col my-5">
+                 <a href="Ajuda.html" class="botao-cabecalho">
+                   <div class="volta">
+                   Ajuda
+                   </div>
+               </a>
+               </div>
+               <div class="col my-5">
+                 <a href="Contactos.html" class="botao-cabecalho">
+                   <div class="volta">
+                   Contactos
+                   </div>
+               </a>
+               </div>
+            </div>
+        </div>
+      </div>
+   </div>
+  </div>
+
+  <!--Contéudo-->
+  <!--mobile-->
+
+  <div class="contentor-mobile">
+      <p class="page-title px-4">Procuras ajuda?</p>
+
+      <div class="row px-4">
+        <div class="col">
+          <p class="conteudo-texto pt-1">
+            Podes encontrar ajuda aqui em cima. Caso tenhas dúvidas em como jogar, consulta a secção passo-a-passo. Se precissares de mais ajuda
+            encontra-me na página de <a href="Contactos.html" class="contactos_link">Contactos</a>.
+          </p>
+        </div>
+      </div>
+  
+    <!--Acordião - 1-->
+  
+    <div class="h1 subtitulo p-4 pt-1">Sobre o Jogo - o que é o Drop&Run?</div>
+        <div class="accordion px-3 pb-1" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <b>O que é o Drop&Run?</b> 
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+  
+                  O Drop&Run é um projeto desenvolvido por um estudante de Multimédia do 12.º ano como prova de aptidão profissional.
+                  Os seus conteúdos abordam o tema da física nuclear.
+                  O projeto apresenta 16 enigmas distintos, organizados em diferentes categorias, e o objetivo do utilizador é resolvê-los à sua maneira.
+  
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <b>Como funciona o jogo?</b>            
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                São fornecidos diversos tipos de conteúdo, incluindo caracteres, números, imagens ou áudio. O utilizador deve analisar esses elementos para obter uma palavra-passe.
+  Em caso de dificuldade, existe uma opção de dica, que deve ser utilizada apenas se o progresso até à resposta não estiver a ser feito.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <b>Preciso de uma conta para jogar?</b>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Não. O website não fornece a opção de criação de conta, pelo que não é necessário registar-se para jogar.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingfour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                <b>Quem pode participar na resolução dos enigmas?</b>
+              </button>
+            </h2>
+            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Todos! Os enigmas são acessíveis a qualquer pessoa que possua um computador, tablet ou telemóvel com acesso à internet.
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    <!--Acordião - 2-->
+  
+    <div class="h1 subtitulo p-4">Dicas e Regras - Como Jogar? </div>
+        <div class="accordion px-3 pb-1" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading5">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapseOne">
+                <b>Qual é o objetivo do jogo?</b>
+              </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+  
+                O objetivo do jogo é resolver os enigmas, descobrindo a palavra-passe correta.
+  
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading6">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                <b>Existem dicas disponíveis? Como posso usá-las?</b>            
+              </button>
+            </h2>
+            <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Sim. As dicas para a resolução dos enigmas são fornecidas ao clicar no botão "Dicas" ao lado de cada enigma.  
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading7">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                <b>Posso jogar com amigos ou outros utilizadores?</b>
+              </button>
+            </h2>
+            <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                De momento, o Drop&Run não tem uma versão multijogador, mas existe uma comunidade online onde podes participar na resolução dos enigmas.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading8">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                <b>É possível mudar o idioma dos enigmas?</b>
+              </button>
+            </h2>
+            <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Não. De momento, os enigmas estão disponíveis apenas em português. Outros idiomas serão adicionados futuramente.
+              </div>
+            </div>
+          </div>
+        </div>
+  
+          <!--Acordião - 3-->
+  
+    <div class="h1 subtitulo p-4">Assuntos Gerais</div>
+    <div class="accordion px-3 pb-1" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading9">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+            <b>O jogo é gratuito?</b>
+          </button>
+        </h2>
+        <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+  
+            Sim. O Drop&Run é totalmente gratuito.
+  
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading10">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+            <b>Posso entrar em contacto com o suporte?</b>            
+          </button>
+        </h2>
+        <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Sim. Podes encontrar os contactos de suporte na seguinte página.        </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading11">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+            <b>
+              Posso sugerir novos enigmas ou alterações ao projeto?
+            </b>
+          </button>
+        </h2>
+        <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Claro! Podes enviar as tuas sugestões através da página de contactos.        
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading12">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+            <b>O Drop&Run é compatível com dispositivos móveis?</b>
+          </button>
+        </h2>
+        <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Sim. O Drop&Run funciona corretamente em qualquer dispositivo, independentemente do tamanho do ecrã.        </div>
+        </div>
+      </div>
+    </div>
+  
+            <!--Acordião - 4-->
+  
+            <div class="h1 subtitulo p-4">
+              Passo a Passo - Para Iniciantes
+            </div>
+            <div class="p text-center">Em desenvolvimento.</div>
+  </div>
+
+  <!--tablet-->
+  <div class="contentor-tablet">
+    <p class="page-title px-4">Procuras ajuda?</p>
+
+    <div class="row px-4">
+      <div class="col">
+        <p class="conteudo-texto pt-1">
+          Podes encontrar ajuda aqui em cima. Caso tenhas dúvidas em como jogar, consulta a secção passo-a-passo. Se precissares de mais ajuda
+          encontra-me na página de <a href="Contactos.html" class="contactos_link">Contactos</a>.
+        </p>
+      </div>
+    </div>
+
+  <!--Acordião - 1-->
+
+  <div class="h1 subtitulo p-4 pt-1">Sobre o Jogo - o que é o Drop&Run?</div>
+      <div class="accordion px-3 pb-1" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              <b>O que é o Drop&Run?</b> 
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+
+                O Drop&Run é um projeto desenvolvido por um estudante de Multimédia do 12.º ano como prova de aptidão profissional.
+                Os seus conteúdos abordam o tema da física nuclear.
+                O projeto apresenta 16 enigmas distintos, organizados em diferentes categorias, e o objetivo do utilizador é resolvê-los à sua maneira.
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <b>Como funciona o jogo?</b>            
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              São fornecidos diversos tipos de conteúdo, incluindo caracteres, números, imagens ou áudio. O utilizador deve analisar esses elementos para obter uma palavra-passe.
+Em caso de dificuldade, existe uma opção de dica, que deve ser utilizada apenas se o progresso até à resposta não estiver a ser feito.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <b>Preciso de uma conta para jogar?</b>
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Não. O website não fornece a opção de criação de conta, pelo que não é necessário registar-se para jogar.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingfour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+              <b>Quem pode participar na resolução dos enigmas?</b>
+            </button>
+          </h2>
+          <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Todos! Os enigmas são acessíveis a qualquer pessoa que possua um computador, tablet ou telemóvel com acesso à internet.
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  <!--Acordião - 2-->
+
+  <div class="h1 subtitulo p-4">Dicas e Regras - Como Jogar? </div>
+      <div class="accordion px-3 pb-1" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading5">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapseOne">
+              <b>Qual é o objetivo do jogo?</b>
+            </button>
+          </h2>
+          <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+
+              O objetivo do jogo é resolver os enigmas, descobrindo a palavra-passe correta.
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+              <b>Existem dicas disponíveis? Como posso usá-las?</b>            
+            </button>
+          </h2>
+          <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Sim. As dicas para a resolução dos enigmas são fornecidas ao clicar no botão "Dicas" ao lado de cada enigma.  
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading7">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+              <b>Posso jogar com amigos ou outros utilizadores?</b>
+            </button>
+          </h2>
+          <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              De momento, o Drop&Run não tem uma versão multijogador, mas existe uma comunidade online onde podes participar na resolução dos enigmas.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading8">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+              <b>É possível mudar o idioma dos enigmas?</b>
+            </button>
+          </h2>
+          <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Não. De momento, os enigmas estão disponíveis apenas em português. Outros idiomas serão adicionados futuramente.
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!--Acordião - 3-->
+
+  <div class="h1 subtitulo p-4">Assuntos Gerais</div>
+  <div class="accordion px-3 pb-1" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading9">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+          <b>O jogo é gratuito?</b>
+        </button>
+      </h2>
+      <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+
+          Sim. O Drop&Run é totalmente gratuito.
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading10">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+          <b>Posso entrar em contacto com o suporte?</b>            
+        </button>
+      </h2>
+      <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Sim. Podes encontrar os contactos de suporte na seguinte página.        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading11">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+          <b>
+            Posso sugerir novos enigmas ou alterações ao projeto?
+          </b>
+        </button>
+      </h2>
+      <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Claro! Podes enviar as tuas sugestões através da página de contactos.        
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading12">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+          <b>O Drop&Run é compatível com dispositivos móveis?</b>
+        </button>
+      </h2>
+      <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Sim. O Drop&Run funciona corretamente em qualquer dispositivo, independentemente do tamanho do ecrã.        </div>
+      </div>
+    </div>
+  </div>
+
+          <!--Acordião - 4-->
+
+          <div class="h1 subtitulo p-4">
+            Passo a Passo - Para Iniciantes
+          </div>
+          <div class="p text-center">Em desenvolvimento.</div>
+</div>
+
+
+  
+
+  <!--footer-->
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col p-3 footer-left-text">
+        <p>Sofia Couto <br>
+        VTM22 <br>
+        Escola Profissional Agostinho Roseta <br>
+        2025</P>
+      </div>
+      <div class="col p-3 text-end">  
+        <a href="#">Ajuda</a>
+        <br>
+        <a href="#">Contactos</a>
+        <br>
+        <a href="#">Mapa de Website</a>
+        <br>
+        <a href="#">Fontes</a>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
