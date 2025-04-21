@@ -1,5 +1,9 @@
 /*css index*/
 
+.conteudo-mobile {
+  display: none;
+}
+
 body {
   border: 0px;
   margin: 0px;
@@ -158,34 +162,19 @@ body {
   padding: 15px;
 }
 
-.botao-1{
+.botao-1 {
   width: 100%;
   background-color: #004577;
   color: aliceblue;
   text-align: start;
 }
 
-.botao-2{
+.botao-2 {
   width: 100%;
   text-align: start;
 }
 
 /*css enigmas*/
-
-.page-subtitle {
-  font-size: 30px;
-  padding-top: 50px;
-  font-weight: bold;
-  color: #0e212e;
-  margin-bottom: 0;
-}
-
-.nomes-enigmas {
-  text-decoration: none;
-  list-style: none;
-  font-size: 30px;
-  color: black;
-}
 
 .img-rotate {
   transform: rotate(15deg);
@@ -194,7 +183,7 @@ body {
 /*Tablet*/
 
 @media only screen and (min-width: 500px) {
-   .conteudo-pc {
+  .conteudo-pc {
     display: block;
   }
 
@@ -205,14 +194,106 @@ body {
 
 @media only screen and (max-width: 500px) {
   .conteudo-pc {
-   display: none;
- }
+    display: none;
+  }
 
- .conteudo-mobile {
-   display: block;
- }
+  .conteudo-mobile {
+    display: block;
+  }
 }
 
-.imagem_mobile{
+.imagem_mobile {
   height: 60px;
+}
+
+.rainbow {
+  width: 100%;
+  height: 15px;
+  background-repeat: repeat-x;
+  background: linear-gradient(
+    to right,
+    #eb528d,
+    #f78f2f,
+    #f4c151,
+    #75d850,
+    #6284ff,
+    #eb528d
+  );
+  animation: rainbow 10s linear infinite;
+  background-size: 200% 100% !important;
+  margin-top: -5px;
+}
+@keyframes rainbow {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 800% 0;
+  }
+}
+
+.up_button {
+  font-size: 35px;
+  transform: rotate(270deg);
+  color: #00000098;
+  width: 100px;
+  font-weight: bolder;
+}
+
+.btn_up {
+  padding-top: 3rem;
+  outline: none !important;
+  align-self: center;
+  justify-self: center;
+}
+
+a:focus,
+a:active,
+.btn_up:focus,
+.btn_up:active,
+.up_button:focus,
+.up_button:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+a:focus-visible,
+.btn:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.imagem-categorias {
+  border: solid 1px #0e212e4d;
+  border-radius: 20px;
+  height: 270px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 100px;
+  margin-right: 20px;
+}
+
+.imagem-categorias-2 {
+  border: solid 1px #0e212e4d;
+  border-radius: 20px;
+  height: 270px;
+}
+
+.page-subtitle {
+  font-size: 30px;
+  padding-top: 50px;
+  font-weight: bold;
+  color: #0e212e;
+  margin-bottom: 0;
+  margin-right: 100px;
+}
+
+.nomes-enigmas {
+  text-decoration: none;
+  list-style: none;
+  font-size: 30px;
+  color: black;
+  margin-right: 100px;
+  align-items: center;
 }
