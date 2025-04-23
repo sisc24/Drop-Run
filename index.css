@@ -360,3 +360,18 @@ a:focus-visible,
     display: block;
   }
 }
+
+.fixedbutton {
+  position: fixed;
+  bottom: 350px;
+  right: 40px;
+}
+
+.play_btn {
+  height: 170px;
+  transition-duration: 0.3s;
+}
+
+.play_btn:hover {
+  height: 190px;
+}
