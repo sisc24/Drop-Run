@@ -36,7 +36,7 @@ body {
 /*Botao-cabeçalho*/
 
 .volta {
-  background-color: #63a2cf;
+  background-color: #63a2cf41;
   width: fit-content;
   padding-left: 30px;
   padding-right: 30px;
@@ -308,6 +308,7 @@ a:focus-visible,
   color: white;
   margin-top: 600px;
   margin-left: 60%;
+  z-index: 1;
 }
 
 .container-flex-2 {
@@ -325,6 +326,7 @@ a:focus-visible,
   margin-top: 580px;
   margin-left: 35%;
   display: none;
+  z-index: 1;
 }
 
 /*Tablet*/
