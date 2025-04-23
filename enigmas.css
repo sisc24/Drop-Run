@@ -310,6 +310,23 @@ a:focus-visible,
   margin-left: 60%;
 }
 
+.container-flex-2 {
+  display: relative;
+}
+
+.sign-2 {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgb(64, 38, 88);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 580px;
+  margin-left: 35%;
+  display: none;
+}
+
 /*Tablet*/
 
 .conteudo-tablet {
@@ -327,5 +344,8 @@ a:focus-visible,
 
   .container-flex {
     display: none;
+  }
+  .sign-2 {
+    display: block;
   }
 }
