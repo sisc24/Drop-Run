@@ -1,9 +1,5 @@
 /*css index*/
 
-.conteudo-mobile {
-  display: none;
-}
-
 body {
   border: 0px;
   margin: 0px;
@@ -14,11 +10,11 @@ body {
 }
 
 .page-title {
-  font-size: 60px;
+  font-size: 80px;
   padding-top: 50px;
   font-weight: bold;
   color: #0e212e;
-  margin-bottom: 0;
+  margin-bottom: -50px;
 }
 
 .sub-title {
@@ -182,28 +178,18 @@ body {
 
 /*Tablet*/
 
-@media only screen and (min-width: 500px) {
-  .conteudo-pc {
-    display: block;
-  }
+.conteudo-tablet {
+  display: none;
+}
 
+@media only screen and (min-width: 900px) {
   .conteudo-mobile {
     display: none;
   }
-}
 
-@media only screen and (max-width: 500px) {
-  .conteudo-pc {
-    display: none;
-  }
-
-  .conteudo-mobile {
+  .conteudo-tablet {
     display: block;
   }
-}
-
-.imagem_mobile {
-  height: 60px;
 }
 
 .rainbow {
@@ -281,19 +267,55 @@ a:focus-visible,
 }
 
 .page-subtitle {
-  font-size: 30px;
+  font-size: 50px;
   padding-top: 50px;
   font-weight: bold;
+
   color: #0e212e;
   margin-bottom: 0;
-  margin-right: 100px;
 }
 
-.nomes-enigmas {
+.texto-enigmas {
   text-decoration: none;
   list-style: none;
-  font-size: 30px;
-  color: black;
-  margin-right: 100px;
+  font-size: 23px;
+  color: rgb(110, 108, 117);
   align-items: center;
+  margin-right: 10px;
+}
+
+.contentor-texto-enigmas {
+  display: flex;
+}
+
+.imagem-categorias-mobile {
+  height: 230px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px black;
+  margin-bottom: -50px;
+  justify-content: center;
+  justify-self: center;
+  margin-top: 50px;
+}
+
+.conteudo-mobile {
+  display: grid;
+  place-items: center; /* shorthand for justify-items and align-items */
+  width: 100%;
+}
+
+.container-flex {
+  display: relative;
+}
+
+.sign {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgb(64, 38, 88);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 620px;
+  margin-left: 300px;
 }
