@@ -211,10 +211,9 @@ body {
   height: 150px;
   transform: rotate(45deg);
   position: absolute;
-  top: 50px;
-  left: 730px;
+  top: 70px;
+  left: 650px;
   z-index: -1;
-  opacity: 60%;
 }
 
 .container-cards {
@@ -360,15 +359,14 @@ a:focus-visible,
   .cartas-tablet {
     display: block;
   }
-  .fixedbutton {
-    position: fixed;
-    bottom: 480px;
-    right: 50px;
-    margin-bottom: -50px;
-    margin-top: 10px;
-    z-index: 1000;
-  }
 }
+
+.fixedbutton {
+  position: fixed;
+  bottom: 350px;
+  right: 40px;
+}
+
 .play_btn {
   height: 170px;
   transition-duration: 0.3s;
@@ -378,124 +376,151 @@ a:focus-visible,
   height: 190px;
 }
 
-
-@media only screen and (max-height: 650px) {
-  .fixedbutton {
-    bottom: 450px;
-  }
+.tool-tip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
 
-@media only screen and (max-height: 610px) {
-  .fixedbutton {
-    bottom: 430px;
-  }
+.container-crono {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: #0e042b solid 3px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 5px 5px 5px #00000077;
 }
-
-@media only screen and (max-height: 590px) {
-  .fixedbutton {
-    bottom: 410px;
-  }
-}
-
-@media only screen and (max-height: 550px) {
-  .fixedbutton {
-    bottom: 370px;
-  }
-}
-
-@media only screen and (max-height: 510px) {
-  .fixedbutton {
-    bottom: 330px;
-  }
-}
-@media only screen and (max-height: 470px) {
-  .fixedbutton {
-    bottom: 290px;
-  }
-}
-@media only screen and (max-height: 430px) {
-  .fixedbutton {
-    bottom: 250px;
-  }
-}
-@media only screen and (max-height: 390px) {
-  .fixedbutton {
-    bottom: 210px;
-  }
-}
-@media only screen and (max-height: 350px) {
-  .fixedbutton {
-    bottom: 170px;
-  }
-}
-@media only screen and (max-height: 310px) {
-  .fixedbutton {
-    bottom: 130px;
-  }
-}
-@media only screen and (max-height: 270px) {
-  .fixedbutton {
-    bottom: 90px;
-  }
-}
-@media only screen and (max-height: 230px) {
-  .fixedbutton {
-    bottom: 70px;
-  }
-}
-@media only screen and (max-height: 190px) {
-  .fixedbutton {
-    bottom: 60px;
-  }
-}
-@media only screen and (max-height: 150px) {
-  .fixedbutton {
-    bottom: 50px;
-  }
-}
-@media only screen and (max-height: 110px) {
-  .fixedbutton {
-    bottom: 40px;
-  }
-}
-
-@media only screen and (max-width: 922px){
-  .contentor-header-tablet{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    display: flex;
-  }
-  
-  .contentor-links{
-    display: flex;
-  }
-  
-  .link-header{
-    margin-right: 20px;
-  }
-  
-  .contentor-margin-playbtn{
-    margin-top: 100px;
-  }
-}
-
-.contentor-header-tablet{
+.crono-title {
+  font-size: 50px;
   padding-top: 30px;
-  padding-bottom: 30px;
-  display: flex;
+  font-weight: bold;
+  color: #0e212e;
+  margin-bottom: 0;
+}
+.digit {
+  font-size: 20px;
+  color: #0e212e;
+  font-weight: bold;
 }
 
-.contentor-links{
-  margin-right: 100px;
-  display: flex;
-  width: 100%;
-  justify-content: end;
+.txt {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0e212e88;
 }
 
-.link-header{
-  margin-right: 20px;
+#buttons {
+  margin-top: 35px;
 }
 
-.contentor-margin-playbtn{
-  margin-top: 100px;
+.btn-crono {
+  width: 100px;
+  padding: 10px 15px;
+  margin: 0px 20px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.5s;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  border: solid 2px #010029;
+}
+
+#start {
+  background-color: #26a0da;
+}
+
+#stop {
+  background-color: #26a0da;
+}
+
+#reset {
+  background-color: #26a0da;
+}
+
+.botao-resposta {
+  background-image: linear-gradient(
+    to right,
+    #314755 0%,
+    #26a0da 51%,
+    #314755 100%
+  );
+}
+.botao-resposta {
+  border: none;
+  margin-top: 30px;
+  font-size: 30px;
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  justify-self: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.botao-resposta:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.resposta {
+  height: 120px;
+}
+
+.resposta-txt {
+  padding-right: 5px;
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.dica {
+  font-style: italic;
+  font-size: 20px;
+  color: #0e212e;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border: solid 2px #0e042b;
+  background-color: #0e042b;
+  color: white;
+  width: 100px;
+  transition: 0.3s;
+}
+
+.dica:hover {
+  font-size: 20px;
+  width: 130px;
+}
+
+.seta-dicas {
+  height: 300px;
+  position: absolute;
+  z-index: -1;
+  top: 880px;
+  right: 300px;
+  opacity: 0.6;
+}
+
+#myDIV2 {
+  visibility: hidden;
+  border-right: #010029 solid 6px;
+  padding-right: 5px;
+  font-size: 25px;
+  margin-bottom: 25px;
+  font-weight: bold;
 }

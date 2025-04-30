@@ -351,3 +351,24 @@ a:focus-visible,
     display: block;
   }
 }
+
+.contentor-header-tablet{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+}
+
+.contentor-links{
+  margin-right: 100px;
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+
+.link-header{
+  margin-right: 20px;
+}
+
+.contentor-margin-playbtn{
+  margin-top: 100px;
+}
