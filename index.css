@@ -126,8 +126,6 @@ body {
 
 .destaque {
   font-weight: bold;
-  color: white;
-  background-color: rgb(33, 94, 148);
   padding: 0 5px;
 }
 
@@ -372,12 +370,12 @@ a:focus-visible,
 .play_btn {
   height: 170px;
   transition-duration: 0.3s;
+  cursor: pointer;
 }
 
 .play_btn:hover {
   height: 190px;
 }
-
 
 @media only screen and (max-height: 650px) {
   .fixedbutton {
@@ -459,43 +457,43 @@ a:focus-visible,
   }
 }
 
-@media only screen and (max-width: 922px){
-  .contentor-header-tablet{
+@media only screen and (max-width: 922px) {
+  .contentor-header-tablet {
     padding-top: 30px;
     padding-bottom: 30px;
     display: flex;
   }
-  
-  .contentor-links{
+
+  .contentor-links {
     display: flex;
   }
-  
-  .link-header{
+
+  .link-header {
     margin-right: 20px;
   }
-  
-  .contentor-margin-playbtn{
+
+  .contentor-margin-playbtn {
     margin-top: 100px;
   }
 }
 
-.contentor-header-tablet{
+.contentor-header-tablet {
   padding-top: 30px;
   padding-bottom: 30px;
   display: flex;
 }
 
-.contentor-links{
+.contentor-links {
   margin-right: 100px;
   display: flex;
   width: 100%;
   justify-content: end;
 }
 
-.link-header{
+.link-header {
   margin-right: 20px;
 }
 
-.contentor-margin-playbtn{
+.contentor-margin-playbtn {
   margin-top: 100px;
 }
