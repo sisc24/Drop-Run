@@ -511,7 +511,7 @@ a:focus-visible,
   height: 300px;
   position: absolute;
   z-index: -1;
-  top: 880px;
+  top: 630px;
   right: 300px;
   opacity: 0.6;
 }
@@ -525,43 +525,8 @@ a:focus-visible,
   font-weight: bold;
 }
 
-.contentor-pc {
-  display: none;
-}
-
-.container-horizontal {
-  display: none;
-}
-
-.container-horizontal-mini {
-  display: none;
-}
-
-@media only screen and (max-width: 599px) {
-  .container-horizontal-mini {
-    display: block;
-  }
-}
-
-@media only screen and (min-width: 900px) {
-  .contentor-pc {
-    display: block;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .container-horizontal {
-    display: block;
-  }
-}
-
-@media only screen and (min-width: 900px) {
-  .container-horizontal {
-    display: none;
-  }
-  .contentor-pc {
-    display: block;
-  }
+.hidden {
+  color: white;
 }
 
 /*index css*/
@@ -1064,4 +1029,43 @@ a:focus-visible,
 
 .contentor-margin-playbtn {
   margin-top: 100px;
+}
+
+.contentor-pc {
+  display: none;
+}
+
+.container-horizontal {
+  display: none;
+}
+
+.container-horizontal-mini {
+  display: none;
+}
+
+@media only screen and (max-width: 599px) {
+  .container-horizontal-mini {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .contentor-pc {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .container-horizontal {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .container-horizontal {
+    display: none;
+  }
+  .contentor-pc {
+    display: block;
+  }
 }
