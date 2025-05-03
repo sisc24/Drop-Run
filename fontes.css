@@ -17,7 +17,6 @@ body {
   margin-bottom: -50px;
   padding-left: 0px;
   padding-right: 0px;
-  cursor: default;
 }
 
 .sub-title {
@@ -265,11 +264,6 @@ a:focus-visible,
   color: rgb(110, 108, 117);
   align-items: center;
   margin-right: 10px;
-  transition-duration: 1s;
-}
-
-.texto-enigmas-2:hover {
-  color: #0e212e;
 }
 
 .texto-enigmas {
