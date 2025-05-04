@@ -11,6 +11,9 @@ function abrirDocumentoAleatorio() {
     "elementos.html",
     "isotopo.html",
     "eletrecidade.html",
+    "velocidade.html",
+    "focar.html",
+    "conversao.html",
   ];
 
   // Seleciona um documento aleatório
