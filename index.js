@@ -4,10 +4,13 @@ function abrirDocumentoAleatorio() {
     "codigo.html",
     "Decaimento.html",
     "direções.html",
-    "emissão-alfa.html",
+    "emissão_alfa.html",
     "Vozes.html",
     "resposta.html",
     "vizinhos.html",
+    "elementos.html",
+    "isotopo.html",
+    "eletrecidade.html",
   ];
 
   // Seleciona um documento aleatório
