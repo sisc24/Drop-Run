@@ -14,6 +14,9 @@ function abrirDocumentoAleatorio() {
     "velocidade.html",
     "focar.html",
     "conversao.html",
+    "neve.html",
+    "orientação.html",
+    "Impacto.html",
   ];
 
   // Seleciona um documento aleatório
