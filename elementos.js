@@ -1,7 +1,7 @@
 function myFunction() {
   var x = document.getElementById("myDIV");
   if (x.innerHTML === "") {
-    x.innerHTML = "Európio.";
+    x.innerHTML = "Promécio, Európio.";
   } else {
     x.innerHTML = "";
   }

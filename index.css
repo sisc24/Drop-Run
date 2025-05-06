@@ -368,13 +368,13 @@ a:focus-visible,
   }
 }
 .play_btn {
-  height: 170px;
+  height: 110px;
   transition-duration: 0.3s;
   cursor: pointer;
 }
 
 .play_btn:hover {
-  height: 190px;
+  height: 150px;
 }
 
 @media only screen and (max-height: 650px) {
