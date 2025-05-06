@@ -212,7 +212,7 @@ body {
   top: 50px;
   left: 730px;
   z-index: -1;
-  opacity: 60%;
+  opacity: 100%;
 }
 
 .container-cards {
@@ -496,4 +496,18 @@ a:focus-visible,
 
 .contentor-margin-playbtn {
   margin-top: 100px;
+}
+
+.contentor-colunas {
+  display: flex;
+}
+
+.coluna1 {
+  width: 70%;
+  display: flex;
+}
+
+.coluna2 {
+  display: flex;
+  width: 30%;
 }
